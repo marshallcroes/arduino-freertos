@@ -65,7 +65,8 @@ void assert_triggered( const char * file, uint32_t line );
 #define configPRIO_BITS                         2
 #define configCPU_CLOCK_HZ											( ( unsigned long ) 48000000 )	
 #define configTICK_RATE_HZ                      ( ( portTickType ) 200 )
-#define configMAX_PRIORITIES                    ( ( unsigned portBASE_TYPE ) 5 )
+// #define configMAX_PRIORITIES                    ( ( unsigned portBASE_TYPE ) 5 )
+#define configMAX_PRIORITIES                    (5UL)
 #define configMINIMAL_STACK_SIZE                ( ( unsigned short ) 100 )
 /* configTOTAL_HEAP_SIZE is not used when heap_3.c is used. */
 #define configTOTAL_HEAP_SIZE										( ( size_t ) ( 4 * 1024 ) )
