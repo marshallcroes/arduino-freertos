@@ -31,7 +31,7 @@
 /*
  * Include the generic headers required for the FreeRTOS port being used.
  */
-#include <Arduino.h>
+// #include <Arduino.h>
 #include <stddef.h>
 
 /*

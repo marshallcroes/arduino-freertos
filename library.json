@@ -1,0 +1,8 @@
+{
+  "name": "arduino_freertos",
+  "build": {
+    "srcFilter": [
+      "+<src/FreeRTOS/*.c>"
+    ]
+  }
+}
